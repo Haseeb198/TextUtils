@@ -15,7 +15,7 @@ function App() {
   const [alert, setAlert] = useState(null);
 
   const [themeColor, setThemeColor] = useState('white');
-
+  console.log('Raheel')
   const showAlert = (message, type) => {
     setAlert({
       msg: message,
